@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A To-Do list which help the users to set the tasks of their day and check progress bar"
+    />
+    <title>Focus on Today</title>
+
+    <!-- Favicon For Browser -->
+    <link rel="icon" href="images/favicon.png" />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <h1 class="title">Focus on <span>Today</span></h1>
+      <div class="app-container" id="appContainer">
+        <h2 class="subtitle">
+          <span>Today</span>
+          <img class="sun-icon" src="/images/Sun.svg" alt="sun" />
+        </h2>
+        <div class="progress-bar-div">
+          <p class="progress-label">Raise the bar by completing your goals!</p>
+          <button id="addGoalBtn">Add Goal</button>
+        </div>
+
+        <div class="progress-bar">
+          <div class="progress-value">
+            <span>0/0 Completed</span>
+          </div>
+          <p class="error-label">Please set all the goals!</p>
+        </div>
+
+        <div class="goal-list-container"></div>
+      </div>
+    </main>
+    <script src="script.js" defer></script>
+  </body>
+</html>
