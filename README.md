@@ -5,6 +5,7 @@ DURATION : 4 Weeks...
 MENTOR : Sravani Gouni...
 
 DESCRIPTION : Focus on Today - To-Do List Application
+LIVE - https://focus-on-today-afzal.netlify.app/
 
 Focus on Today is a simple yet effective To-Do list application built using HTML, CSS, and JavaScript. It helps users organize their daily tasks and track their progress with a dynamic progress bar. Users can add, edit, and delete goals, and see their completion status updated in real-time.
 
